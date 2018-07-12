@@ -8,7 +8,7 @@ import com.sun.speech.freetts.VoiceManager;
 public class SpeakAndSpell {
 
 	public static void main(String[] args) {
-		main();		// 1. Use then speak method to say the word. "e.g. spell mandlebrot"
+		// 1. Use then speak method to say the word. "e.g. spell mandlebrot"
 String name = SpeakAndSpell.speak("Oh, spell supercalifragilisticexpialidocious!");
 		// 2. Catch the user's answer in a String
 JOptionPane.showInputDialog("");
