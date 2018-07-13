@@ -13,7 +13,7 @@ public class FlamingNinjaStar {
 Robot RAIv4_5=	new Robot();
 RAIv4_5.penDown();
 RAIv4_5.miniaturize();
-RAIv4_5.setSpeed(9999);;
+RAIv4_5.setSpeed(Integer.MAX_VALUE);;
 
          // *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		

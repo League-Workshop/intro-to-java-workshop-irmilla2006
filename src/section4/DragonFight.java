@@ -39,7 +39,7 @@ public class DragonFight {
 			DragonP+=3;
 			
 		} 
-		if (input.equalsIgnoreCase("Kick")) {
+		if (input.equalsIgnoreCase("kick")) {
 			PlayerDamage=new Random().nextInt(1000001);
 			dragonHealth-=PlayerDamage;
 			JOptionPane.showMessageDialog(null , PlayerDamage + " Damage! Dragon is angry!");
@@ -60,8 +60,11 @@ public class DragonFight {
 			
 			
 		
-		// 11.  Find a random number between 0 and 35 and store it in playerDamage
-		PlayerDamage=new Random().nextInt(10000);
+		// 11.  Find a random number betwe
+
+			
+			
+			PlayerDamage=new Random().nextInt(10000);
 		playerHealth-=PlayerDamage;
 		JOptionPane.showMessageDialog(null, "The dragon did " + PlayerDamage + " damage!");
 		// 12. Subtract this number from the player's health
